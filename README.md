@@ -1,5 +1,5 @@
 # POOBKEMON
-PoobKemon es una Simulación del juego Pokemon Esmeralda,encontraremos diferentes modos de juego donde interactuaremos con la maquina o un rival enfrentadonos en una batalla pokemon con diferentes y gran variedad de pokemones.
+PoobKemon es una Simulación del juego Pokemon Esmeralda, encontraremos diferentes modos de juego donde interactuaremos con la maquina o un rival enfrentadonos en una batalla pokemon con diferentes y gran variedad de pokemones.
 
 
 ## Prerrequisitos
@@ -7,7 +7,7 @@ PoobKemon es una Simulación del juego Pokemon Esmeralda,encontraremos diferente
 - `javac` y `java` configurados en el PATH
 - Terminal (PowerShell, CMD o IntelliJ Terminal)
 
-## librerías  necesarias(incluidas en la carpeta lib)
+## librerías necesarias(incluidas en la carpeta lib)
 
 - `junit-jupiter-api-5.10.0.jar`
 - `junit-jupiter-engine-5.10.0.jar`
@@ -25,7 +25,7 @@ PoobKemon es una Simulación del juego Pokemon Esmeralda,encontraremos diferente
 
 - Primero debemos descomprimir nuestro archivo.zip
 - Abrimos nuestro cmd(consola)
-- Nuestro primer comando sera la ruta de acceso  (`C:\Users\Jasua\Downloads\PoobKemon.2`)en este caso no seria jasua ya que es depende del nombre de nuestro usuario 
+- Nuestro primer comando sera la ruta de acceso 
 - Siguiente comando (`javac -encoding UTF-8 -d out -cp "lib/*;." src/Domain/*.java src/Presentation/*.java src/Tests/*.java)`debe copilar exitosamente nuestro proyecto
 - Siguiente comando (`java -cp "lib/*;out" Presentation.InicioPoobkemon`
   )ejecuta nuestra clase IncioPoobkemon que es la que tiene el main y llama la carpeta lib que es la que tiene las importaciones necesarias.jar para que nuestro proyecto ejecute 
